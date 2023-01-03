@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 // import image1 from '../Images/21.svg'
 
 export default class About extends Component{
@@ -14,7 +15,7 @@ export default class About extends Component{
                 <div className="about-context">
                     <h3>{this.props.title}</h3>
                     <p>{this.props.children}</p>
-                    <a href="#">LEARN COST ANALYSIS</a>
+                    <a href="#">LEARN COST ANALYSIS<i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         )
